@@ -663,6 +663,7 @@ body{
 .service{
     background: #272727;
     padding: 5% 0;
+    overflow: hidden
 }
 .service .service-header{
     text-align: center
@@ -1846,9 +1847,7 @@ body{
     margin:8px
 }
 .footer .footer-icon{
-    margin-left: 115px;
-    position: absolute;
-    margin-top: -4%;
+    margin: 9% 0;
 
 }
 .footer .footer-icon i{
@@ -1884,6 +1883,9 @@ body{
     }
     .footer .col0{
         margin: 10% 0 0;
+    }
+    .footer-icon{
+        display: block
     }
 }
 /*
